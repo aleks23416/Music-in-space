@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#dat-gui-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.upload {
+    position: fixed;
+    display: inline-block;
+    top: 1rem;
+    left: 1rem;
+
+    background: rgb(145, 92, 182);
+    font-size: 0.8rem;
+   
+    box-shadow: 0 0.33em 0.9375em rgba(145, 92, 182, .4);
+}
+
+.upload__btn {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.0);
+    background: rgb(145, 92, 182);
+    padding: 0.75em 1.875em;
+}
+
+.upload__btn input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0; 
+}
+
+.upload__path {
+    text-transform: none;
+    background-color: aliceblue;
+    padding: 0.75em 1.875em;
+    display: inline-block;
+    
+}

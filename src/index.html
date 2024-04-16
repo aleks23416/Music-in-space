@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>My First Parcel App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body style="background-color: black">
+    <canvas id='canvas'></canvas>
+
+    <span class='upload'>
+      <label class='upload__btn' class='upload__btn'>
+        <input id='upload' type="file" accept='audio/*' />
+        Upload audio file
+      </label>
+      <span id='upload__path' class='upload__path'>No file selected.</span>
+    </span>
+
+    <div id='dat-gui-container'></div>
+
+    <!--
+    <button id='start' style="color: red">Start</button>
+    <button id='stop' style="color: red">Stop</button>
+    <button id='reset' style="color: red">Reset</button>
+    <button id='analyze' style="color: red">Analyze</button>
+    -->
+    <script type="module" src="index.js"></script>
+</body>
+</html>
